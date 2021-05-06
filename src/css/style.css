@@ -207,8 +207,6 @@ iframe {
 }
 
 .receta picture {
-    /* height: 250px;
-    width: 350px; */
     height: 400px;
     width: 700px;
     object-fit: cover;
@@ -263,8 +261,8 @@ ul.breadcrumb li a:hover {
 }
 
 .presentation img {
-    height: 250px;
-    width: 350px;
+    height: 400px;
+    width: 700px;
     object-fit: cover;
 }
 
@@ -419,8 +417,8 @@ iframe {
     /* Presentacion */
 
     .presentation img {
-        max-width: 250px;
-        max-height: 200px;
+        max-width: 400px;
+        max-height: 500px;
     }
     
 }
@@ -491,4 +489,24 @@ iframe {
         max-height: 150px;
     }
 
+}
+
+.bar {
+    fill: #aaa;
+    height: 21px;
+    transition: fill 0.3s linear;
+    cursor: pointer;
+    font-family: Helvetica, sans-serif;
+}
+.bar text {
+    fill: #555;
+}
+.chart:hover .bar, .chart:focus .bar {
+    fill: #aaa;
+}
+.bar:hover, .bar:focus {
+    fill: #977517 !important;
+}
+.bar:hover text, .bar:focus text {
+    fill: #977517;
 }
