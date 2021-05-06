@@ -44,7 +44,7 @@ header div a img{
 @keyframes anim-flip {
     0% {
         opacity: 0;
-        transform: rotateX(90def);
+        transform: rotateX(90deg);
     }
     50% {
         opacity: 1;
@@ -310,12 +310,6 @@ ul.breadcrumb li a:hover {
 
 
 @keyframes loading-spinner {
-    0% { transform: rotate(0deg)}
-    75% { transform: rotate(180deg)}
-    100% { transform: rotate(360deg)}
-}
-
-@-webkit-keyframes loading-spinner {
     0% { transform: rotate(0deg)}
     75% { transform: rotate(180deg)}
     100% { transform: rotate(360deg)}
